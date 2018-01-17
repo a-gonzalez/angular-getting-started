@@ -1,0 +1,102 @@
+[
+	{
+		"ID": 1,
+		"Name": "R2D2",
+		"Code": "R2-D2",
+		"Date": "March 23, 1994",
+		"Description": "R2-D2, pronounced Artoo-Detoo and often referred to as Artoo, was an R2 series astromech droid manufactured by Industrial Automaton with masculine programming.",
+		"Price": 8356.87,
+		"Rating": 4.6,
+		"ImageUrl": "https://images-na.ssl-images-amazon.com/images/I/41SfBlwpQkL._SL500_AC_SS350_.jpg"
+	},
+	{
+		"ID": 2,
+		"Name": "C-3P0",
+		"Code": "C-3P0",
+		"Date": "April 12, 1989",
+		"Description": "I am C-3PO, human-cyborg relations. Fluent in over six million forms of communication.",
+		"Price": 9534.76,
+		"Rating": 3.9,
+		"ImageUrl": "https://img00.deviantart.net/d583/i/2015/112/4/f/3cpo_chibi_by_exorodesigns-d5yucad.png"
+	},
+	{
+		"ID": 3,
+		"Name": "Red Lightsaber",
+		"Code": "S-009",
+		"Date": "February 25, 1979",
+		"Description": "Designed as much for elegance in combat as for ceremony, the lightsaber, also referred to as the \"laser sword\" by those who were unfamiliar with it, was a distinctive weapon, the very image of which was inextricably bound with the mythos of the Jedi Order and their polar opposites, the Sith.",
+		"Price": 8453.23,
+		"Rating": 3.2,
+		"ImageUrl": "./assets/images/red_lightsaber.jpg"
+	},
+	{
+		"ID": 4,
+		"Name": "Blue Lightsaber",
+		"Code": "S-003",
+		"Date": "August 17, 1978",
+		"Description": "Designed as much for elegance in combat as for ceremony, the lightsaber, also referred to as the \"laser sword\" by those who were unfamiliar with it, was a distinctive weapon, the very image of which was inextricably bound with the mythos of the Jedi Order and their polar opposites, the Sith.",
+		"Price": 9453.83,
+		"Rating": 4.2,
+		"ImageUrl": "./assets/images/blue_lightsaber.jpg"
+	},
+	{
+		"ID": 5,
+		"Name": "Green Lightsaber",
+		"Code": "S-001",
+		"Date": "December 4, 1999",
+		"Description": "Designed as much for elegance in combat as for ceremony, the lightsaber, also referred to as the \"laser sword\" by those who were unfamiliar with it, was a distinctive weapon, the very image of which was inextricably bound with the mythos of the Jedi Order and their polar opposites, the Sith.",
+		"Price": 15453.65,
+		"Rating": 4.9,
+		"ImageUrl": "./assets/images/green_lightsaber.jpg"
+	},
+	{
+		"ID": 6,
+		"Name": "Taun Taun",
+		"Code": "TT01",
+		"Date": "May 5, 1974",
+		"Description": "A species of snow lizard found roaming the windswept snow plains of Hoth. The Rebel Alliance domesticated the swift creature during their stay on the ice planet, and used the animals for patrol duties outside Echo Base.",
+		"Price": 693.33,
+		"Rating": 2.5,
+		"ImageUrl": "./assets/images/tauntaun.jpg"
+	},
+	{
+		"ID": 7,
+		"Name": "TIE Fighter",
+		"Code": "TIE01",
+		"Date": "February 19, 1994",
+		"Description": "TIE (Twin-Ion-Engine) fighters are fast, agile, yet fragile starfighters produced by Sienar Fleet Systems for the Galactic Empire.",
+		"Price": 693.33,
+		"Rating": 3.5,
+		"ImageUrl": "https://openclipart.org/download/224289/CLIP-IS-A-BRICK_SW-MINI_TIE-FIGHTER.svg"
+	},
+	{
+		"ID": 8,
+		"Name": "Millenium Falcon",
+		"Code": "MF001",
+		"Date": "August 12, 1975",
+		"Description": "Solo's ship made the Kessel Run in less than twelve parsecs.",
+		"Price": 85500.46,
+		"Rating": 4.7,
+		"ImageUrl": "https://openclipart.org/download/224913/CLIP-IS-A-BRICK_SW-MINI_MILLENIUM-FALCON.svg"
+	},
+	{
+		"ID": 9,
+		"Name": "X-Wing",
+		"Code": "X001",
+		"Date": "April 4, 2013",
+		"Description": "The X-wing is a versatile Rebel Alliance starfighter that balances speed with firepower. Luke Skywalker is famous for destroying the Death Star behind the controls of an X-wing.",
+		"Price": 45877.25,
+		"Rating": 3.8,
+		"ImageUrl": "https://openclipart.org/download/224290/CLIP-IS-A-BRICK_SW-MINI_X-WING.svg"
+	},
+	{
+		"ID": 10,
+		"Name": "Sith Infiltrator",
+		"Code": "I001",
+		"Date": "October 25, 1993",
+		"Description": "A fittingly fearsome vessel for its deadly pilot, the Sith Infiltrator is the personal starship of Darth Maul, Dark Lord of the Sith. The Infiltrator set down on Tatooine during the search for Queen Amidala, and became a mobile base of operations for Maul.",
+		"Price": 38877.16,
+		"Rating": 4.2,
+		"ImageUrl": "https://openclipart.org/image/2400px/svg_to_png/224914/CLIP-IS-A-BRICK_SW-MINI_SITH-INFILTRATOR.png"
+	}
+]

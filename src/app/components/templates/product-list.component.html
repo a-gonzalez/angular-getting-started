@@ -1,0 +1,70 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		{{heading}}
+	</div>
+	<div class="panel-body">
+		<div class="row">
+			<div class="col-md-2">
+				Filter:
+			</div>
+			<div class="col-md-4">
+				<input type="text" [(ngModel)]="Filter" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Filtered By: {{_filter}}</h3>
+			</div>
+		</div>
+	</div>
+	<div class="table-responsive">
+		<table class="table" *ngIf="products && products.length">
+			<thead>
+				<tr>
+					<th>
+						<button class="btn btn-primary" (click)="toggleImage()">{{image_show ? "Hide" : "Show"}} Image</button>
+					</th>
+					<th>
+						Product
+					</th>
+					<th>
+						Code	
+					</th>
+					<th>
+						Available
+					</th>
+					<th>
+						Price
+					</th>
+					<th>
+						Rating
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let product of products_filtered">
+					<td>
+						<img *ngIf="image_show" [src]="product.ImageUrl" [title]="product.Name" [style.width.px]="image_width" [style.margin.px]="image_margin" />
+					</td>
+					<td>
+						<a [routerLink]="['/products', product.ID]">
+							{{product.Name}}
+						</a>
+					</td>
+					<td>
+						{{product.Code | convertToSpaces: "-" | uppercase}}
+					</td>
+					<td>
+						{{product.Date | date}}
+					</td>
+					<td>
+						{{product.Price | currency:"USD":true:"1.2-2"}}
+					</td>
+					<td>
+						<pm-star [rating]="product.Rating" (emitter)="onNotify($event)"></pm-star>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

@@ -1,0 +1,65 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{heading}}
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-3">
+        Name:
+      </div>
+      <div class="col-md-6">
+        {{ product.Name }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        Code:
+      </div>
+      <div class="col-md-6">
+        {{ product.Code | uppercase | convertToSpaces: "-" }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        Description:
+      </div>
+      <div class="col-md-6">
+        {{ product.Description }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        Availability:
+      </div>
+      <div class="col-md-6">
+        {{ product.Date }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        Price:
+      </div>
+      <div class="col-md-6">
+        {{ product.Price | currency:"USD":true }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        Rating:
+      </div>
+      <div class="col-md-6">
+        <pm-star [rating]="product.Rating"></pm-star>
+      </div>
+      
+      <div class="col-md-6">
+        <img class="center-block img-responsive" [style.width.px]="200" [style.margin.px]="2" [src]="product.ImageUrl" [title]="product.Name" />
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel-footer">
+    <a class="btn btn-default" (click)="onBack()" style="width: 80px;">
+      <i class="glyphicon glyphicon-chevron-left"></i> Back
+    </a>
+  </div>
+</div>
